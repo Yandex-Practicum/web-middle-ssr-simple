@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "baseUrl": "src"
+  }
+}
