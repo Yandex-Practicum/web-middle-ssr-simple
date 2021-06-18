@@ -172,9 +172,9 @@ var _default = App;
     return;
   }
 
-  reactHotLoader.register(Contacts, "Contacts", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
-  reactHotLoader.register(App, "App", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
+  reactHotLoader.register(Contacts, "Contacts", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
+  reactHotLoader.register(App, "App", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
 })();
 
 ;
@@ -229,8 +229,8 @@ var _default = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(funct
     return;
   }
 
-  reactHotLoader.register(Home, "Home", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/home.tsx");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/home.tsx");
+  reactHotLoader.register(Home, "Home", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\home.tsx");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\home.tsx");
 })();
 
 ;
@@ -317,8 +317,8 @@ function getHtml(reactHtml) {
     return;
   }
 
-  reactHotLoader.register(getHtml, "getHtml", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/server-render-middleware.tsx");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/server-render-middleware.tsx");
+  reactHotLoader.register(getHtml, "getHtml", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\server-render-middleware.tsx");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\server-render-middleware.tsx");
 })();
 
 ;
@@ -417,8 +417,8 @@ app.get('/*', _toConsumableArray(getWebpackMiddlewares(_webpack_client_config__W
     return;
   }
 
-  reactHotLoader.register(getWebpackMiddlewares, "getWebpackMiddlewares", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/server.ts");
-  reactHotLoader.register(app, "app", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/server.ts");
+  reactHotLoader.register(getWebpackMiddlewares, "getWebpackMiddlewares", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\server.ts");
+  reactHotLoader.register(app, "app", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\server.ts");
 })();
 
 ;
@@ -472,7 +472,7 @@ var getInitialState = function getInitialState() {
     return;
   }
 
-  reactHotLoader.register(getInitialState, "getInitialState", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/getInitialState.ts");
+  reactHotLoader.register(getInitialState, "getInitialState", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\getInitialState.ts");
 })();
 
 ;
@@ -529,7 +529,7 @@ var _default = function _default(history) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootReducer.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootReducer.ts");
 })();
 
 ;
@@ -587,8 +587,8 @@ function configureStore(initialState) {
     return;
   }
 
-  reactHotLoader.register(isServer, "isServer", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootStore.ts");
-  reactHotLoader.register(configureStore, "configureStore", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootStore.ts");
+  reactHotLoader.register(isServer, "isServer", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootStore.ts");
+  reactHotLoader.register(configureStore, "configureStore", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootStore.ts");
 })();
 
 ;
@@ -677,8 +677,8 @@ var _default = config;
     return;
   }
 
-  reactHotLoader.register(config, "config", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/client.config.ts");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/client.config.ts");
+  reactHotLoader.register(config, "config", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\client.config.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\client.config.ts");
 })();
 
 ;
@@ -723,9 +723,9 @@ var DIST_DIR = path.join(__dirname, '../dist');
     return;
   }
 
-  reactHotLoader.register(IS_DEV, "IS_DEV", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/env.ts");
-  reactHotLoader.register(SRC_DIR, "SRC_DIR", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/env.ts");
-  reactHotLoader.register(DIST_DIR, "DIST_DIR", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/env.ts");
+  reactHotLoader.register(IS_DEV, "IS_DEV", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\env.ts");
+  reactHotLoader.register(SRC_DIR, "SRC_DIR", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\env.ts");
+  reactHotLoader.register(DIST_DIR, "DIST_DIR", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\env.ts");
 })();
 
 ;
@@ -777,7 +777,7 @@ var _default = {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/loaders/css.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\loaders\\css.ts");
 })();
 
 ;
@@ -825,8 +825,8 @@ var _default = {
     return;
   }
 
-  reactHotLoader.register(fileRegex, "fileRegex", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/loaders/file.ts");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/loaders/file.ts");
+  reactHotLoader.register(fileRegex, "fileRegex", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\loaders\\file.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\loaders\\file.ts");
 })();
 
 ;
@@ -879,7 +879,7 @@ var _default = {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/webpack/loaders/js.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\webpack\\loaders\\js.ts");
 })();
 
 ;

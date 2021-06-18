@@ -9,18 +9,18 @@ import { getInitialState } from './store/getInitialState';
 import App from "./app";
 
 // В этой middleware мы формируем первичное состояние приложения на стороне сервера
-// Попробуйте подебажить ее, чтобы лучше разобраться в работе
+// Попробуйте её подебажить, чтобы лучше разобраться, как она работает
 export default (req: Request, res: Response) => {
     const location = req.url;
     const context: StaticRouterContext = {};
     const { store } = configureStore(getInitialState(location), location);
 
     const jsx = (
-      <ReduxProvider store={store}>
-          <StaticRouter context={context} location={location}>
-              <App />
-          </StaticRouter>
-      </ReduxProvider>
+        <ReduxProvider store={store}>
+            <StaticRouter context={context} location={location}>
+                <App />
+            </StaticRouter>
+        </ReduxProvider>
     );
     const reactHtml = renderToString(jsx);
     const reduxState = store.getState();
@@ -49,8 +49,8 @@ function getHtml(reactHtml: string, reduxState = {}) {
         <body>
             <div id="mount">${reactHtml}</div>
             <script>
-                // записываем состояние редакса, сформированное на стороне сервера в window
-                // На стороне клиента мы применим это состояние при старте
+                // Записываем состояние редакса, сформированное на стороне сервера в window
+                // На стороне клиента применим это состояние при старте
                 window.__INITIAL_STATE__ = ${JSON.stringify(reduxState)}
             </script>
             <script src="/main.js"></script>

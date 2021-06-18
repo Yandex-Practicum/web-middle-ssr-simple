@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "bd2d5b7371bc632a5158";
+/******/ 	var hotCurrentHash = "ba150f48842051243786";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -54175,9 +54175,9 @@ var _default = App;
     return;
   }
 
-  reactHotLoader.register(Contacts, "Contacts", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
-  reactHotLoader.register(App, "App", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/app.tsx");
+  reactHotLoader.register(Contacts, "Contacts", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
+  reactHotLoader.register(App, "App", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\app.tsx");
 })();
 
 ;
@@ -54243,8 +54243,8 @@ Object(react_hot_loader__WEBPACK_IMPORTED_MODULE_7__["hot"])(module)(Object(reac
     return;
   }
 
-  reactHotLoader.register(store, "store", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/client.tsx");
-  reactHotLoader.register(history, "history", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/client.tsx");
+  reactHotLoader.register(store, "store", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\client.tsx");
+  reactHotLoader.register(history, "history", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\client.tsx");
 })();
 
 ;
@@ -54298,8 +54298,8 @@ var _default = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(funct
     return;
   }
 
-  reactHotLoader.register(Home, "Home", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/home.tsx");
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/home.tsx");
+  reactHotLoader.register(Home, "Home", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\home.tsx");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\home.tsx");
 })();
 
 ;
@@ -54354,7 +54354,7 @@ var _default = function _default(history) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootReducer.ts");
+  reactHotLoader.register(_default, "default", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootReducer.ts");
 })();
 
 ;
@@ -54410,8 +54410,8 @@ function configureStore(initialState) {
     return;
   }
 
-  reactHotLoader.register(isServer, "isServer", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootStore.ts");
-  reactHotLoader.register(configureStore, "configureStore", "/Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/store/rootStore.ts");
+  reactHotLoader.register(isServer, "isServer", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootStore.ts");
+  reactHotLoader.register(configureStore, "configureStore", "D:\\Dev\\pr-work\\web-middle-ssr-simple\\src\\store\\rootStore.ts");
 })();
 
 ;
@@ -54434,7 +54434,7 @@ function configureStore(initialState) {
 __webpack_require__(/*! react-hot-loader/patch */"./node_modules/react-hot-loader/patch.js");
 __webpack_require__(/*! webpack-hot-middleware/client */"./node_modules/webpack-hot-middleware/client.js");
 __webpack_require__(/*! css-hot-loader/hotModuleReplacement */"./node_modules/css-hot-loader/hotModuleReplacement.js");
-module.exports = __webpack_require__(/*! /Users/evgenyshturman/Projects/ssr/ssr-react-redux-router-example/src/client */"./src/client.tsx");
+module.exports = __webpack_require__(/*! D:\Dev\pr-work\web-middle-ssr-simple\src\client */"./src/client.tsx");
 
 
 /***/ })
