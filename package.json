@@ -6,12 +6,9 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "NODE_ENV=production NODE_PATH=. npm run clean && webpack --mode production --config webpack/client.config.ts",
-    "format": "prettier --write \\\\\\\"ssr-react-redux-router-example/src/**/*.{ts,tsx}\\\\\\\" \\\\\\\"ssr-react-redux-router-example/webpack/**/*.ts\\\\\\\"",
-    "check-types": "tsc --noEmit",
     "start:webpack": "webpack --mode=development",
     "start:server": "nodemon index.js --watch dist/server.js",
-    "start": "NODE_ENV=development npm-run-all --print-label --parallel start:*"
+    "start": "cross-env NODE_ENV=development npm-run-all --print-label --parallel start:*"
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.8.4",
@@ -21,17 +18,13 @@
     "connected-react-router": "6.3.2",
     "express": "4.17.1",
     "history": "4.9.0",
-    "immer": "6.0.3",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-helmet": "5.2.0",
     "react-hot-loader": "4.8.3",
     "react-redux": "7.2.0",
     "react-router-dom": "5.1.2",
-    "react-slick": "0.23.2",
     "redux": "4.0.1",
-    "redux-saga": "1.0.2",
-    "slick-carousel": "1.8.1",
     "webpack-hot-middleware": "2.24.3"
   },
   "devDependencies": {
@@ -67,6 +60,7 @@
     "babel-loader": "8.0.5",
     "compression-webpack-plugin": "2.0.0",
     "copy-webpack-plugin": "5.1.1",
+    "cross-env": "^7.0.3",
     "css-hot-loader": "1.4.4",
     "css-loader": "2.1.1",
     "cssnano": "4.1.10",

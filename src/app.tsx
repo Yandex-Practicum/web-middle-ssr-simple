@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./home";
+import {hot} from "react-hot-loader/root";
 
 const Contacts: React.FC = () => <div>Contacts component</div>
 
@@ -14,4 +15,4 @@ const App: React.FC = () => {
     </div>);
 };
 
-export default App;
+export default hot(App);

@@ -6,7 +6,6 @@ import {Provider} from "react-redux";
 import {State} from "./store/types";
 import App from "./app";
 import {ConnectedRouter} from "connected-react-router";
-import {hot} from "react-hot-loader";
 
 const { store, history } = configureStore(window.__INITIAL_STATE__);
 
@@ -17,11 +16,11 @@ declare global {
   }
 }
 
-hot(module)(hydrate(
+hydrate(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <App />
     </ConnectedRouter>
   </Provider>,
   document.getElementById('mount')
-));
+);
