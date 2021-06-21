@@ -2,7 +2,6 @@ import path from 'path';
 import webpack, { Configuration, Plugin, Entry } from 'webpack';
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import CompressionPlugin from 'compression-webpack-plugin';
 
 import { IS_DEV, DIST_DIR, SRC_DIR } from './env';
 
@@ -14,7 +13,7 @@ const config: Configuration = {
     target: 'web',
     entry: ([
         IS_DEV && 'react-hot-loader/patch',
-        // entry для работы HMR
+        // Entry для работы HMR
         IS_DEV && 'webpack-hot-middleware/client',
         IS_DEV && 'css-hot-loader/hotModuleReplacement',
         path.join(SRC_DIR, 'client'),
@@ -35,7 +34,7 @@ const config: Configuration = {
     },
     plugins: [
         new MiniCssExtractPlugin({ filename: '[name].css' }),
-        // plugin для HMR
+        // Plugin для HMR
         new webpack.HotModuleReplacementPlugin(),
 
     ].filter(Boolean) as Plugin[],

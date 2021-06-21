@@ -1,5 +1,5 @@
 {
-  "name": "SSR",
+  "name": "ssr",
   "private": true,
   "engines": {
     "node": "12"
@@ -38,6 +38,7 @@
     "@babel/core": "7.3.4",
     "@babel/plugin-proposal-class-properties": "7.4.0",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-typescript": "^7.14.6",
     "@babel/preset-env": "7.3.4",
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.9.0",

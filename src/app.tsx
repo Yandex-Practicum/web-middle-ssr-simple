@@ -5,9 +5,9 @@ import Home from "./home";
 const Contacts: React.FC = () => <div>Contacts component</div>
 
 const App: React.FC = () => {
+    // Попробуйте открыть приложение с разными значениями роутера и проверьте ответ от SSR-сервера
     return (<div>
         <Switch>
-            // Попробуйте открывать приложения с разными значениями роутера и проверьте ответ от SSR сервера
             <Route exact={true} path="/" component={Home} />
             <Route exact={true} path="/contacts" component={Contacts} />
         </Switch>
